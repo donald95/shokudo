@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "うな丼",
+    "price": "830",
+    "calories": "532",
+    "delivery": true,
+    "description": "うなぎ丼ぶり。",
+    "translatedDescription": "Arroz con anguila.",
+    "photo": "image_001.jpg"
+  },
+  {
+    "id": 2,
+    "title": "きつねうどん",
+    "price": "450",
+    "calories": "292",
+    "delivery": true,
+    "description": "お揚げ入りうどん。",
+    "translatedDescription": "Udon con tofu frito.",
+    "photo": "image_002.jpg"
+  },
+  {
+    "id": 3,
+    "title": "えび天うどん",
+    "price": "480",
+    "calories": "274",
+    "delivery": true,
+    "description": "えび天入りうどん。",
+    "translatedDescription": "Udon con tempura de camarón.",
+    "photo": "image_003.jpg"
+  },
+  {
+    "id": 4,
+    "title": "くらポテト",
+    "price": "420",
+    "calories": "396",
+    "delivery": true,
+    "description": "フライドポテト。",
+    "translatedDescription": "Papas fritas.",
+    "photo": "image_004.jpg"
+  },
+  {
+    "id": 5,
+    "title": "ザクザクチキン",
+    "price": "420",
+    "calories": "368",
+    "delivery": true,
+    "description": "フライドチキン。",
+    "translatedDescription": "Pollo frito.",
+    "photo": "image_005.jpg"
+  },
+  {
+    "id": 6,
+    "title": "月見バーガー",
+    "price": "450",
+    "calories": "325",
+    "delivery": true,
+    "description": "卵入りバーガー。",
+    "translatedDescription": "Hamburguesa con huevo.",
+    "photo": "image_006.jpg"
+  }
+]

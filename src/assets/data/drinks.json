@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "ぶどう",
+    "price": "230",
+    "calories": "62",
+    "delivery": true,
+    "description": "ぶどうジュース。",
+    "translatedDescription": "Jugo de uva.",
+    "photo": "image_001.jpg"
+  },
+  {
+    "id": 2,
+    "title": "みかん",
+    "price": "230",
+    "calories": "74",
+    "delivery": true,
+    "description": "みかんジュース。",
+    "translatedDescription": "Jugo de mandarina.",
+    "photo": "image_002.jpg"
+  },
+  {
+    "id": 3,
+    "title": "りんご",
+    "price": "230",
+    "calories": "82",
+    "delivery": true,
+    "description": "りんごジュース。",
+    "translatedDescription": "Jugo de manzana.",
+    "photo": "image_003.jpg"
+  },
+  {
+    "id": 4,
+    "title": "コーヒー",
+    "price": "100",
+    "calories": "0",
+    "delivery": true,
+    "description": "ホットコーヒー。",
+    "translatedDescription": "Café caliente.",
+    "photo": "image_004.jpg"
+  },
+  {
+    "id": 5,
+    "title": "コーラ",
+    "price": "160",
+    "calories": "140",
+    "delivery": true,
+    "description": "コーラ。",
+    "translatedDescription": "Coca-Cola.",
+    "photo": "image_005.jpg"
+  }
+]

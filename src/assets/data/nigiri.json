@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "サーモン",
+    "price": "115",
+    "calories": "93",
+    "delivery": true,
+    "description": "あたらしいさーもん",
+    "translatedDescription": "Salmón fresco.",
+    "photo": "image_001.jpg"
+  },
+  {
+    "id": 2,
+    "title": "えび",
+    "price": "115",
+    "calories": "74",
+    "delivery": true,
+    "description": "ぷりぷりえび",
+    "translatedDescription": "Camarón jugoso.",
+    "photo": "image_002.jpg"
+  },
+  {
+    "id": 3,
+    "title": "生えび",
+    "price": "115",
+    "calories": "78",
+    "delivery": true,
+    "description": "なまえび",
+    "translatedDescription": "Camarón crudo.",
+    "photo": "image_003.jpg"
+  },
+  {
+    "id": 4,
+    "title": "ゆずかれい",
+    "price": "115",
+    "calories": "90",
+    "delivery": true,
+    "description": "ゆずかれい",
+    "translatedDescription": "Pescado yuzu.",
+    "photo": "image_004.jpg"
+  },
+  {
+    "id": 5,
+    "title": "いか",
+    "price": "115",
+    "calories": "73",
+    "delivery": true,
+    "description": "やわらかい いか",
+    "translatedDescription": "Calamar suave.",
+    "photo": "image_005.jpg"
+  },
+  {
+    "id": 6,
+    "title": "やりいか",
+    "price": "115",
+    "calories": "73",
+    "delivery": true,
+    "description": "あまいやりいか",
+    "translatedDescription": "Calamar dulce.",
+    "photo": "image_006.jpg"
+  },
+  {
+    "id": 7,
+    "title": "あなご",
+    "price": "120",
+    "calories": "94",
+    "delivery": true,
+    "description": "ふわふわあなご",
+    "translatedDescription": "Anguila esponjosa.",
+    "photo": "image_007.jpg"
+  },
+  {
+    "id": 8,
+    "title": "たまご焼き",
+    "price": "125",
+    "calories": "114",
+    "delivery": true,
+    "description": "あまいたまごやき",
+    "translatedDescription": "Tortilla de huevo dulce.",
+    "photo": "image_008.jpg"
+  },
+  {
+    "id": 9,
+    "title": "ビントロ",
+    "price": "130",
+    "calories": "83",
+    "delivery": true,
+    "description": "あぶらのったびんとろ",
+    "translatedDescription": "Bintoro con grasa.",
+    "photo": "image_009.jpg"
+  }
+]

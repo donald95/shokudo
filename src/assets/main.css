@@ -1,0 +1,81 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto/NotoSansJP-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/noto/NotoSansJP-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat SemiBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Noto Sans', serif;
+  box-sizing: border-box !important;
+}
+
+h1 {
+  position: relative;
+  font-family: 'Montserrat SemiBold', serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 17px;
+  width: 20px;
+  height: 20px;
+  background-color: #ef4828;
+  border-radius: 50%;
+}
+
+h4 {
+  font-family: 'Noto Sans Medium', serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+}
+
+
