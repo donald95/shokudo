@@ -36,6 +36,9 @@
 }
 
 h1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
   position: relative;
   font-family: 'Montserrat SemiBold', serif;
   font-size: 40px;
@@ -47,7 +50,6 @@ h1::before {
   content: "";
   position: absolute;
   left: -30px;
-  top: 17px;
   width: 20px;
   height: 20px;
   background-color: #ef4828;
@@ -78,4 +80,13 @@ main {
   }
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 4.5vmin !important;
+  }
 
+  h1::before {
+    width: 10px;
+    height: 10px;
+  }
+}
