@@ -2,7 +2,11 @@
   <main>
     <h1>NIGIRI - にぎり</h1>
     <div class="grid-container">
-      <v-card class="flex-grow-1 d-flex flex-column" v-for="menuItem in sushiItems" :key="menuItem.id">
+      <v-card
+        class="flex-grow-1 d-flex flex-column"
+        v-for="menuItem in sushiItems"
+        :key="menuItem.id"
+      >
         <v-img height="260" :src="menuItem.photo" cover></v-img>
 
         <v-divider class="mx-4 mb-1"></v-divider>
@@ -33,7 +37,11 @@
     </div>
     <h1>COMPLEMENTOS - サイドメニュー</h1>
     <div class="grid-container">
-      <v-card class="flex-grow-1 d-flex flex-column" v-for="menuItem in complementItems" :key="menuItem.id">
+      <v-card
+        class="flex-grow-1 d-flex flex-column"
+        v-for="menuItem in complementItems"
+        :key="menuItem.id"
+      >
         <v-img height="260" :src="menuItem.photo" cover></v-img>
 
         <v-divider class="mx-4 mb-1"></v-divider>
@@ -64,7 +72,11 @@
     </div>
     <h1>BEBIDAS - 飲み物</h1>
     <div class="grid-container">
-      <v-card class="flex-grow-1 d-flex flex-column" v-for="menuItem in drinkItems" :key="menuItem.id">
+      <v-card
+        class="flex-grow-1 d-flex flex-column"
+        v-for="menuItem in drinkItems"
+        :key="menuItem.id"
+      >
         <v-img height="260" :src="menuItem.photo" cover></v-img>
 
         <v-divider class="mx-4 mb-1"></v-divider>
@@ -93,6 +105,16 @@
         </v-card-actions>
       </v-card>
     </div>
+    <footer
+      style="
+        text-align: center;
+        padding: 10px;
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      "
+    >
+      <p>© <span id="year">{{ year }}</span> Hecho con ❤️ por Donald Munguía</p>
+    </footer>
   </main>
 </template>
 
@@ -102,25 +124,27 @@ import sushiData from '@/assets/data/nigiri.json' with { type: 'json' }
 import complementData from '@/assets/data/complement.json' with { type: 'json' }
 import drinkData from '@/assets/data/drinks.json' with { type: 'json' }
 
+const year = ref(new Date().getFullYear())
+
 const sushiItems = ref(
-  sushiData.map(item => ({
+  sushiData.map((item) => ({
     ...item,
-    photo: new URL(`/src/assets/images/nigiri/${item.photo}`, import.meta.url).href
-  }))
+    photo: new URL(`/src/assets/images/nigiri/${item.photo}`, import.meta.url).href,
+  })),
 )
 
 const complementItems = ref(
-  complementData.map(item => ({
+  complementData.map((item) => ({
     ...item,
-    photo: new URL(`/src/assets/images/complement/${item.photo}`, import.meta.url).href
-  }))
+    photo: new URL(`/src/assets/images/complement/${item.photo}`, import.meta.url).href,
+  })),
 )
 
 const drinkItems = ref(
-  drinkData.map(item => ({
+  drinkData.map((item) => ({
     ...item,
-    photo: new URL(`/src/assets/images/drinks/${item.photo}`, import.meta.url).href
-  }))
+    photo: new URL(`/src/assets/images/drinks/${item.photo}`, import.meta.url).href,
+  })),
 )
 
 function reserve() {
