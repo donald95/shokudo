@@ -1,6 +1,7 @@
 <template>
   <main>
-    <h1>NIGIRI - にぎり</h1>
+    <h1>Shokudo App</h1>
+    <h2>NIGIRI - にぎり</h2>
     <div class="grid-container">
       <v-card
         class="flex-grow-1 d-flex flex-column"
@@ -13,7 +14,7 @@
 
         <v-card-item>
           <v-card-title style="display: flex; justify-content: space-between; flex-wrap: wrap">
-            <h4>{{ menuItem.title }}</h4>
+            <h3>{{ menuItem.title }}</h3>
             <div>{{ menuItem.price }}円</div>
           </v-card-title>
 
@@ -35,7 +36,7 @@
         </v-card-actions>
       </v-card>
     </div>
-    <h1>COMPLEMENTOS - サイドメニュー</h1>
+    <h2>COMPLEMENTOS - サイドメニュー</h2>
     <div class="grid-container">
       <v-card
         class="flex-grow-1 d-flex flex-column"
@@ -48,7 +49,7 @@
 
         <v-card-item>
           <v-card-title style="display: flex; justify-content: space-between; flex-wrap: wrap">
-            <h4>{{ menuItem.title }}</h4>
+            <h3>{{ menuItem.title }}</h3>
             <div>{{ menuItem.price }}円</div>
           </v-card-title>
 
@@ -70,7 +71,7 @@
         </v-card-actions>
       </v-card>
     </div>
-    <h1>BEBIDAS - 飲み物</h1>
+    <h2>BEBIDAS - 飲み物</h2>
     <div class="grid-container">
       <v-card
         class="flex-grow-1 d-flex flex-column"
@@ -83,7 +84,7 @@
 
         <v-card-item>
           <v-card-title style="display: flex; justify-content: space-between; flex-wrap: wrap">
-            <h4>{{ menuItem.title }}</h4>
+            <h3>{{ menuItem.title }}</h3>
             <div>{{ menuItem.price }}円</div>
           </v-card-title>
 
@@ -113,7 +114,9 @@
         font-family: Arial, sans-serif;
       "
     >
-      <p>© <span id="year">{{ year }}</span> Hecho con ❤️ por Donald Munguía</p>
+      <p>
+        © <span id="year">{{ year }}</span> Hecho con ❤️ por Donald Munguía
+      </p>
     </footer>
   </main>
 </template>
